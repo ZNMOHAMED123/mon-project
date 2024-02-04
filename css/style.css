@@ -1,0 +1,49 @@
+
+
+
+
+body {
+    background-color: rgb(211, 215, 214);
+}
+
+ .header {
+    background-color: black;
+    color: white;
+    height: 200px;
+    flex:  0 0 100%;
+    text-align: center;
+}
+.content{
+    background-color: grey;
+    color: white;
+
+    flex: 0 0 70%;
+    order: 2;
+    padding: 10;
+    box-sizing: border-box;
+}
+.aside { 
+    background-color: green;
+    color: white;
+
+    flex:0 0 30%;
+    order: 1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.footer { 
+     background-color: black;
+     color: white;
+     height: 80px;
+     flex:0 0 100%;
+     order: 3;
+     text-align: 10px;
+     box-sizing: border-box;
+}
+
+.flex-conteneur { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: auto;
+}
